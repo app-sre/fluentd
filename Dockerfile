@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ruby-33@sha256:63cd429997d8b80075fcc19411f008501af073be0aa0693df147b91e0f528008 AS base
+FROM registry.access.redhat.com/ubi9/ruby-33@sha256:987a6199f36d15558f3caedd6e8d0b0e56a759d57b72ffb51d626634737b9665 AS base
 # keep in sync with fluentd in Gemfile
 LABEL konflux.additional-tags="1.16.1"
 COPY LICENSE /licenses/LICENSE
