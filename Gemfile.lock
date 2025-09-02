@@ -43,6 +43,10 @@ GEM
       fluentd (>= 0.14.22, < 2)
     fluent-plugin-slack (0.6.7)
       fluentd (>= 0.10.8)
+    fluent-plugin-splunk-enterprise (0.10.2)
+      fluentd (>= 0.12.0)
+      json
+      httpclient
     fluent-plugin-teams (1.1.0)
       fluentd (>= 0.14.15, < 2)
       rest-client
@@ -62,13 +66,17 @@ GEM
     http-cookie (1.0.8)
       domain_name (~> 0.5)
     http_parser.rb (0.8.0)
+    httpclient (2.9.0)
+      mutex_m
     jmespath (1.6.2)
+    json (2.13.2)
     logger (1.7.0)
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
     mime-types-data (3.2025.0722)
     msgpack (1.8.0)
+    mutex_m (0.3.0)
     netrc (0.11.0)
     nokogiri (1.18.8-aarch64-linux-gnu)
       racc (~> 1.4)
@@ -120,6 +128,7 @@ DEPENDENCIES
   fluent-plugin-rewrite-tag-filter (~> 2.4.0)
   fluent-plugin-s3 (~> 1.8.3)
   fluent-plugin-slack (~> 0.6.7)
+  fluent-plugin-splunk-enterprise (~> 0.10.2)
   fluent-plugin-teams (~> 1.1.0)
   fluentd (= 1.16.1)
   nokogiri (= 1.18.8)

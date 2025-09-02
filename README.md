@@ -3,6 +3,7 @@
 An AppSRE customized version of fluentd including several plugins built into the Docker image:
 - fluent-plugin-s3
 - fluent-plugin-slack
+- fluent-plugin-splunk-enterprise
 - fluent-plugin-cloudwatch-logs
 - fluent-plugin-teams
 
