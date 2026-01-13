@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '~> 3.3.0'
+ruby '~> 4.0.0'
 
 gem 'fluentd', '1.16.1'
 gem 'fluent-plugin-s3', '~> 1.8.3'
