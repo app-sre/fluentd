@@ -12,3 +12,4 @@ gem 'fluent-plugin-teams', '~> 1.1.0'
 # dependency of aws sdk as rexml is a bundled gem since ruby 3.0 (included by default in 2.x)
 gem 'nokogiri', '1.18.9'
 gem 'oj', '~> 3.16.0'
+gem 'fluent-plugin-splunk-hec', '~>1.3'
