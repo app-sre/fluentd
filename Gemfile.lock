@@ -2,11 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     aws-eventstream (1.4.0)
-    aws-partitions (1.1203.0)
-    aws-sdk-cloudwatchlogs (1.137.0)
-      aws-sdk-core (~> 3, >= 3.241.3)
+    aws-partitions (1.1232.0)
+    aws-sdk-cloudwatchlogs (1.142.0)
+      aws-sdk-core (~> 3, >= 3.244.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-core (3.241.3)
+    aws-sdk-core (3.244.0)
       aws-eventstream (~> 1, >= 1.3.0)
       aws-partitions (~> 1, >= 1.992.0)
       aws-sigv4 (~> 1.9)
@@ -14,22 +14,22 @@ GEM
       bigdecimal
       jmespath (~> 1, >= 1.6.1)
       logger
-    aws-sdk-kms (1.120.0)
-      aws-sdk-core (~> 3, >= 3.241.3)
+    aws-sdk-kms (1.123.0)
+      aws-sdk-core (~> 3, >= 3.244.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-s3 (1.211.0)
-      aws-sdk-core (~> 3, >= 3.241.3)
+    aws-sdk-s3 (1.217.1)
+      aws-sdk-core (~> 3, >= 3.244.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.5)
-    aws-sdk-sqs (1.109.0)
-      aws-sdk-core (~> 3, >= 3.241.3)
+    aws-sdk-sqs (1.112.0)
+      aws-sdk-core (~> 3, >= 3.244.0)
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.12.1)
       aws-eventstream (~> 1, >= 1.0.2)
     base64 (0.3.0)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.0)
     concurrent-ruby (1.3.6)
-    cool.io (1.9.1)
+    cool.io (1.9.4)
     domain_name (0.6.20240107)
     fluent-config-regexp-type (1.0.0)
       fluentd (> 1.0.0, < 2)
@@ -39,7 +39,7 @@ GEM
     fluent-plugin-rewrite-tag-filter (2.4.0)
       fluent-config-regexp-type
       fluentd (>= 0.14.2, < 2)
-    fluent-plugin-s3 (1.8.3)
+    fluent-plugin-s3 (1.8.4)
       aws-sdk-s3 (~> 1.60)
       aws-sdk-sqs (~> 1.23)
       fluentd (>= 0.14.22, < 2)
@@ -69,7 +69,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0113)
+    mime-types-data (3.2026.0317)
     msgpack (1.8.0)
     netrc (0.11.0)
     nokogiri (1.18.9-aarch64-linux-gnu)
@@ -106,7 +106,7 @@ GEM
     strptime (0.2.5)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2025.3)
+    tzinfo-data (1.2026.1)
       tzinfo (>= 1.0.0)
     webrick (1.9.2)
     yajl-ruby (1.4.3)
@@ -132,7 +132,7 @@ DEPENDENCIES
   oj (~> 3.16.0)
 
 RUBY VERSION
-   ruby 3.3.0p0
+  ruby 3.3.0p0
 
 BUNDLED WITH
-   2.6.9
+  4.0.8
