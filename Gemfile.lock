@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     aws-eventstream (1.4.0)
-    aws-partitions (1.1234.0)
+    aws-partitions (1.1236.0)
     aws-sdk-cloudwatchlogs (1.144.0)
       aws-sdk-core (~> 3, >= 3.244.0)
       aws-sigv4 (~> 1.5)
@@ -17,7 +17,7 @@ GEM
     aws-sdk-kms (1.123.0)
       aws-sdk-core (~> 3, >= 3.244.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-s3 (1.218.0)
+    aws-sdk-s3 (1.219.0)
       aws-sdk-core (~> 3, >= 3.244.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.5)
@@ -61,7 +61,7 @@ GEM
       webrick (~> 1.4)
       yajl-ruby (~> 1.0)
     http-accept (1.7.0)
-    http-cookie (1.1.0)
+    http-cookie (1.1.4)
       domain_name (~> 0.5)
     http_parser.rb (0.8.1)
     jmespath (1.6.2)
@@ -69,7 +69,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0331)
+    mime-types-data (3.2026.0407)
     msgpack (1.8.0)
     netrc (0.11.0)
     nokogiri (1.18.9-aarch64-linux-gnu)
