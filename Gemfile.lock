@@ -61,7 +61,7 @@ GEM
       webrick (~> 1.4)
       yajl-ruby (~> 1.0)
     http-accept (1.7.0)
-    http-cookie (1.1.4)
+    http-cookie (1.1.6)
       domain_name (~> 0.5)
     http_parser.rb (0.8.1)
     jmespath (1.6.2)
