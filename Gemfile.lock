@@ -106,7 +106,7 @@ GEM
     strptime (0.2.5)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2026.1)
+    tzinfo-data (1.2026.2)
       tzinfo (>= 1.0.0)
     webrick (1.9.2)
     yajl-ruby (1.4.3)
