@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     aws-eventstream (1.4.0)
-    aws-partitions (1.1262.0)
+    aws-partitions (1.1265.0)
     aws-sdk-cloudwatchlogs (1.157.0)
       aws-sdk-core (~> 3, >= 3.248.0)
       aws-sigv4 (~> 1.5)
@@ -39,7 +39,7 @@ GEM
     fluent-plugin-rewrite-tag-filter (2.4.0)
       fluent-config-regexp-type
       fluentd (>= 0.14.2, < 2)
-    fluent-plugin-s3 (1.8.4)
+    fluent-plugin-s3 (1.8.5)
       aws-sdk-s3 (~> 1.60)
       aws-sdk-sqs (~> 1.23)
       fluentd (>= 0.14.22, < 2)
@@ -69,7 +69,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0414)
+    mime-types-data (3.2026.0701)
     msgpack (1.8.3)
     netrc (0.11.0)
     nokogiri (1.18.9-aarch64-linux-gnu)
@@ -135,4 +135,4 @@ RUBY VERSION
   ruby 3.3.0p0
 
 BUNDLED WITH
-  4.0.12
+  4.0.14
