@@ -2,8 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     aws-eventstream (1.4.0)
-    aws-partitions (1.1290.0)
-    aws-sdk-cloudwatchlogs (1.164.0)
+    aws-partitions (1.1292.0)
+    aws-sdk-cloudwatchlogs (1.165.0)
       aws-sdk-core (~> 3, >= 3.256.0)
       aws-sigv4 (~> 1.5)
     aws-sdk-core (3.257.0)
@@ -18,7 +18,7 @@ GEM
     aws-sdk-kms (1.132.0)
       aws-sdk-core (~> 3, >= 3.256.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-s3 (1.232.2)
+    aws-sdk-s3 (1.233.1)
       aws-sdk-core (~> 3, >= 3.256.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.5)
@@ -76,7 +76,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0922)
+    mime-types-data (3.2026.0929)
     msgpack (1.8.5)
     net-http-persistent (4.0.8)
       connection_pool (>= 2.2.4, < 4)
@@ -117,7 +117,7 @@ GEM
     strptime (0.2.5)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2026.4)
+    tzinfo-data (1.2026.5)
       tzinfo (>= 1.0.0)
     webrick (1.9.2)
     yajl-ruby (1.4.3)
