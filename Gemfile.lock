@@ -97,10 +97,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.9-x86_64-linux-musl)
       racc (~> 1.4)
-    oj (3.16.17)
+    oj (3.17.8)
       bigdecimal (>= 3.0)
-      ostruct (>= 0.2)
-    ostruct (0.6.3)
     prometheus-client (3.0.0)
     racc (1.8.1)
     rest-client (2.1.0)
@@ -141,10 +139,10 @@ DEPENDENCIES
   fluent-plugin-teams (~> 1.1.0)
   fluentd (= 1.16.1)
   nokogiri (= 1.18.9)
-  oj (~> 3.16.0)
+  oj (~> 3.17.0)
 
 RUBY VERSION
   ruby 3.3.0p0
 
 BUNDLED WITH
-  4.0.23
+  4.0.24
